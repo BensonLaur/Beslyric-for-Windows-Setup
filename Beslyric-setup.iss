@@ -89,7 +89,6 @@ Source:"avutil-56.dll"; DestDir: "{app}"; Flags:replacesameversion ignoreversion
 Source:"bearer\qgenericbearer.dll"; DestDir: "{app}\bearer"; Flags:replacesameversion ignoreversion ;
 Source:"bearer\qnativewifibearer.dll"; DestDir: "{app}\bearer"; Flags:replacesameversion ignoreversion ;
 Source:"Beslyric-for-X.exe"; DestDir: "{app}"; Flags:replacesameversion ignoreversion ;
-Source:"concrt140.dll"; DestDir: "{app}"; Flags:replacesameversion ignoreversion ;
 Source:"D3Dcompiler_47.dll"; DestDir: "{app}"; Flags:replacesameversion ignoreversion ;
 Source:"data\lyricList.xml"; DestDir: "{app}\data"; Flags:onlyifdoesntexist uninsneveruninstall ;
 Source:"data\setting.xml"; DestDir: "{app}\data"; Flags:onlyifdoesntexist uninsneveruninstall ;
