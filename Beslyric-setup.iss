@@ -102,6 +102,11 @@ Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: de
 [Run]
 Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
 
+; Refresh the icons
+[InstallDelete]
+Type: files; Name: "{autoprograms}\BesLyric.lnk"
+Type: files; Name: "{autodesktop}\BesLyric.lnk"
+
 [Files]
 Source:"api-ms-win-core-console-l1-1-0.dll"; DestDir: "{app}"; Flags:replacesameversion ignoreversion ;
 Source:"api-ms-win-core-datetime-l1-1-0.dll"; DestDir: "{app}"; Flags:replacesameversion ignoreversion ;
