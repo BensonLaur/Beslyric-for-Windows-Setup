@@ -157,8 +157,6 @@ Source:"bearer\qgenericbearer.dll"; DestDir: "{app}\bearer"; Flags:replacesameve
 Source:"bearer\qnativewifibearer.dll"; DestDir: "{app}\bearer"; Flags:replacesameversion ignoreversion ;
 Source:"Beslyric-for-X.exe"; DestDir: "{app}"; Flags:replacesameversion ignoreversion ;
 Source:"D3Dcompiler_47.dll"; DestDir: "{app}"; Flags:replacesameversion ignoreversion ;
-Source:"data\lyricList.xml"; DestDir: "{app}\data"; Flags:onlyifdoesntexist uninsneveruninstall ;
-Source:"data\setting.xml"; DestDir: "{app}\data"; Flags:onlyifdoesntexist uninsneveruninstall ;
 Source:"iconengines\qsvgicon.dll"; DestDir: "{app}\iconengines"; Flags:replacesameversion ignoreversion ;
 Source:"imageformats\qdds.dll"; DestDir: "{app}\imageformats"; Flags:replacesameversion ignoreversion ;
 Source:"imageformats\qgif.dll"; DestDir: "{app}\imageformats"; Flags:replacesameversion ignoreversion ;
